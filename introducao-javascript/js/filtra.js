@@ -9,6 +9,7 @@ campoFiltro.addEventListener("input", function () {
       var paciente = pacientes[i];
       var tdNome = paciente.querySelector(".info-nome");
       var nome = tdNome.textContent;
+                            //case insensitive
       var expressao = new RegExp(this.value,"i")
       if (!expressao.test(nome)) {
         paciente.classList.add("invisivel");
@@ -24,4 +25,4 @@ campoFiltro.addEventListener("input", function () {
   }
 });
 
-//!= diferente ! NoT
+//!=diferente !NoT

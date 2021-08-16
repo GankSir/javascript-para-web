@@ -153,7 +153,7 @@ button[disabled=disabled], button:disabled {
   height: 35px;
   margin-bottom: 10px;
 }
-
+ /*O truque de deixar invisível adicionando uma classe com display:none */
 .invisivel {
 
   display: none;
